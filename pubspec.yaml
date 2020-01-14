@@ -11,7 +11,9 @@ environment:
 
 dependencies:
   rxdart: ">=0.22.2 <1.0.0"
-  select_dialog: ^1.0.6+1
+  select_dialog:
+    git: git:https://github.com/zamvar/select_dialog
+
   flutter:
     sdk: flutter
 
